@@ -85,6 +85,11 @@ a {
   text-align: center;
 }
 
+img {
+  border-radius: 15%;
+  border: 1px solid #000;
+}
+
 #facts {
   position: relative;
   text-align: left;
