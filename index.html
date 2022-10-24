@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Battles</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="topnav">
+        <a href="#top">Back to Top</a>
+        <a href="#penguins">Penguins</a>
+        <a href="#vote">Vote</a>
+    </nav>
+
+    <header id="top">
+        <div id="hero">
+            <h1>Meet Your Penguins</h1>
+        </div>
+    </header>
+    
+    <!-- Introduction w/ images -->
+    <main class="penguin-section" id="penguins">
+        <div class="penguins">
+            <h2>Meet Willis!</h2>
+            <img src="./assets/images/Crested-Penguin.png" alt="" height="200px" width="200px">
+            <blockquote>
+                <p>The scientific name of the crested penguin is the Eudyptes robustus. The name Eudyptes is based on the Greek words that mean “good diver.”</p>
+            </blockquote>
+            <strong>Fun Facts:</strong>
+            <ul id="facts">
+                <li>Favorite food: Krill</li>
+                <li>It lives only on one island, Snare Island, near New Zealand.</li>
+                <li>The crested penguin typically reproduces a single chick each year.</li>
+            </ul>
+            <figcaption>Information sourced from <cite><a href="https://a-z-animals.com/animals/crested-penguin/">A-Z Animals</a></cite></figcaption>
+        </div>
+        <div class="penguins">
+            <h2>Meet Phillis!</h2>
+            <img src="./assets/images/Macaroni.jfif" alt="" height="200px" width="200px">
+            <blockquote>
+                <p>The scientific name of the macaroni penguin is Eudyptes chrysolophus. The word eudyptes is Greek means "good diver" and chrysolophus means "golden" and "crest."</p>
+            </blockquote>
+            <strong>Fun Facts:</strong>
+            <ul id="facts">
+                <li>Can swim as fast as 15 mph.</li>
+                <li>These birds can live as long as 20 years in the wild.</li>
+                <li>Macaroni penguins mate for life.</li>
+            </ul>
+            <figcaption>Information sourced from <cite><a href="https://a-z-animals.com/animals/macaroni-penguin/">A-Z Animals</a></cite></figcaption>
+        </div>
+        <div class="penguins">
+            <h2>Meet George!</h2>
+            <img src="./assets/images/royal-penguin.jpg" alt="" height="200px" width="200px">
+            <blockquote>
+                <p>Eudyptes schlegeli is this penguin’s scientific name. Eudyptes derives from the Greek and means “good diver.” Schlegeli is a pseudo-Latin honorific venerating zoologist Herman Schlegel, the first person to describe royal penguins.</p> 
+            </blockquote>
+                <strong>Fun Facts:</strong>
+            <ul id="facts">
+                <li>Scientists are still unsure where royal penguins spend the winter.</li>
+                <li>These penguins regularly clear 150-foot dives.</li>
+                <li>Both male and female penguins share chick-rearing duties.</li>
+            </ul>
+            <figcaption>Information sourced from <cite><a href="https://a-z-animals.com/animals/royal-penguin/">A-Z Animals</a></cite></figcaption>
+        </div>
+    </main>
+
+    <!-- Submissiom form -->
+    <section class="submission" id="vote">
+        <h2>Submission Form</h2>
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+          
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+            <label for="#">Your Favorite Penguin</label>
+            <select id="#" name="#">
+                <option value="Willis">Willis</option>
+                <option value="Phillis">Phillis</option>
+                <option value="George">George</option>
+            </select>
+          
+            <input type="submit" value="Submit">
+          
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Thank you for voting!</p>
+    </footer>
+</body>
+</html>
